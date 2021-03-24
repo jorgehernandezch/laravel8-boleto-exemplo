@@ -71,9 +71,9 @@ php artisan serve
 _Se tudo estiver correto você pode ver o boleto gerado no endereço http://localhost:8000/boleto_ 
 
 _Como Funciona?_
-Ao colocar a rota no navegador, o sistema vai gerar um boleto que vai ser processado pelo Controller BoletoController. Os dados são fixos, mas você pode colocar neles dados que podem ser pegados de um Banco de Dados.
+Ao colocar a rota no navegador, o sistema vai gerar um boleto que vai ser processado pelo Controller BoletoController. Os dados são fixos, mas você pode colocar neles dados que podem ser pegados de um Banco de Dados. Ele gera a visualização do Boleto e gera a remessa em uma Pasta chamada arquivos denteo da Pasta Http
 
-Ele gera a visualização do Boleto e gera a remessa em uma Pasta chamada arquivos denteo da Pasta Http
 ---
+
 [Jorge Edo. Hernández](https://github.com/jorgehernandezch)  
 _Engenheiro e Desenvolvedor Web_
