@@ -1,8 +1,8 @@
-# Laravel 7 com Biblioteca Boleto
+# Laravel 8 com Biblioteca Boleto
 
 ## Començando 🚀
 
-_Siga as seguintes instruções para clonar este repositório em sua máquina local e ver o exemplo do Laravel 7 com Ticket_
+_Siga as seguintes instruções para clonar este repositório em sua máquina local e ver o exemplo do Laravel 8 com Boleto_
 
 ### Pre-requisitos 📋
 
@@ -54,14 +54,9 @@ php artisan key:generate
 _Corra las migraciones del proyecto con_
 
 ```
-php artisan migrate
+php artisan migrate --seed
 ```
 
-_Execute migrações de projeto com_
-
-```
-php artisan db:seed
-```
 _Execute o projeto com_
 
 ```
