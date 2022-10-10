@@ -35,13 +35,13 @@ git clone https://github.com/jorgehernandezch/Laravel-7-Boleto-Exemplo.git
 _Instale todas as dependências do projeto com_
 
 ```
-composer install y composer update
+composer install e composer update
 ```
 
 _Como o projeto tem dependenças em JS pode instalá-las com_
 
 ```
-npm install y npm update
+npm install e npm update
 ```
 
 _Copie o arquivo .env.example para um novo arquivo .env com_
