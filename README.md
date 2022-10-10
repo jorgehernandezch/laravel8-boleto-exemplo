@@ -18,9 +18,9 @@ https://getcomposer.org/doc/00-intro.md
 
 Verifique as versões de cada um deles
 
-Versión PHP - 7.4.2  
+Versión PHP - 7.4.21
 Versión Mysql - 5.7.26  
-Versión Composer - 1.10.1  
+Versión Composer - 2.3.5 
 
 ### Instalação 🔧
 
@@ -35,7 +35,13 @@ git clone https://github.com/jorgehernandezch/Laravel-7-Boleto-Exemplo.git
 _Instale todas as dependências do projeto com_
 
 ```
-composer install
+composer install y composer update
+```
+
+_Como o projeto tem dependenças em JS pode instalá-las com_
+
+```
+npm install y npm update
 ```
 
 _Copie o arquivo .env.example para um novo arquivo .env com_
@@ -66,7 +72,7 @@ php artisan serve
 _Se tudo estiver correto você pode ver o boleto gerado no endereço http://localhost:8000/boleto_ 
 
 _Como Funciona?_
-Ao colocar a rota no navegador, o sistema vai gerar um boleto que vai ser processado pelo Controller BoletoController. Os dados são fixos, mas você pode colocar neles dados que podem ser pegados de um Banco de Dados. Ele gera a visualização do Boleto e gera a remessa em uma Pasta chamada arquivos denteo da Pasta Http
+Ao colocar a rota no navegador, o sistema vai gerar um boleto que vai ser processado pelo Controller BoletoController. Os dados são fixos, mas você pode colocar neles dados que podem ser pegados de um Banco de Dados. Ele gera a visualização do Boleto e gera a remessa em uma Pasta chamada arquivos dentro da Pasta Http
 
 ---
 
