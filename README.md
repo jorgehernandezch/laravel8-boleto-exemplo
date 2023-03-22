@@ -1,5 +1,5 @@
 # Laravel 8 com Biblioteca Laravel Boleto Eduardo Kum
-_https://github.com/eduardokum/laravel-boleto
+https://github.com/eduardokum/laravel-boleto
 
 ## Començando 🚀
 
